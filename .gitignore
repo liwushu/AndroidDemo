@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+/app/build
+/imageloader/build
+/launchereffect/build
+/thirdpartyeffect/build
+/Volley/build
+/xutils/build
+

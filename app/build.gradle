@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.android.slw"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.tcl.launcher.dialog:tdialog-release:1.0.4'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile project(path: ':launchereffect')
+    compile 'com.alibaba:fastjson:1.2.17'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile project(':Volley')
+    compile project(':xutils')
+    compile 'com.squareup.leakcanary:leakcanary-analyzer:1.4'
+    compile 'com.squareup.leakcanary:leakcanary-android:1.4'
+    compile('com.facebook.fresco:fresco:0.11.0') {
+        exclude group: 'com.parse.bolts',
+                module: 'bolts-tasks'
+        exclude group: 'com.parse.bolts',
+                module: 'bolts-applinks';
+    }
+    compile 'com.facebook.fresco:animated-gif:0.11.0'
+    //            {
+    //        exclude group: 'com.parse.bolts',
+    //                module: 'bolts-tasks'
+    //        exclude group: 'com.parse.bolts',
+    //                module: 'bolts-applinks';
+    //    }
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    compile 'com.jakewharton:butterknife:8.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.android.slw.view.MyTransformationView
+        android:id="@+id/transformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_margin="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="移动"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放大"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_scale_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩小"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转"
+            android:layout_margin="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_skew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="斜切"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_symmetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对称"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

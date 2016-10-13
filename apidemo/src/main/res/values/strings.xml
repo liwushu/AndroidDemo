@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GioneeApiDemos</string>
+    <string name="top">模糊/模糊最上层的界面(需要Root)</string>
+    <string name="blur_activity">模糊/模糊图片</string>
+    <string name="blur_activity2">模糊View</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="change_bg">模糊图片</string>
+    <string name="statusbar_bg">含状态栏模糊</string>
+    <string name="no_statusbar_bg">去除状态栏模糊</string>
+    <string name="no_blur">恢复</string>
+	<string name="pre_page">前一页</string>
+	<string name="next_page">后一页</string>
+	<string name="turnpager">翻页/翻页有限容器</string>
+	<string name="cycleturnpager">翻页/翻页无限容器</string>
+	<string name="clipeffect">折纸</string>
+	<string name="thirdeffect">30种特效</string>
+	<string name="switch_on">开</string>
+	<string name="switch_off">关</string>
+	<string name="loopmode">循环模式:</string>
+	<string name="effecttype">效果样式:</string>
+	<string name="drivemode">自动模式:</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.tcl.launcher.effect.Workspace
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="first"
+        android:background="@android:color/holo_blue_light"
+        style="@style/textStyle"
+        />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="second"
+        android:background="@android:color/holo_red_light"
+        style="@style/textStyle"
+        />
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="third"
+        android:background="@android:color/holo_green_light"
+        style="@style/textStyle"
+        />
+    </com.tcl.launcher.effect.Workspace>
+</LinearLayout>

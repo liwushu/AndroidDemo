@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string-array name="effect_type">
+       	<item>经典</item>
+		<item>风车</item>
+		<item>弹跳</item>
+		<item>风扇</item>
+		<item>层叠</item>
+		<item>波浪</item>
+		<item>十字翻转</item>
+		<item>立方体</item>
+		<item>盒子</item>
+		<item>翻转</item>
+		<item>倾斜</item>
+ 		<item>垂直</item> 
+		<item>挤压</item>
+		<item>圆柱</item>
+		<item>窗户</item>
+		<item>百叶窗</item>
+		<item>龙卷风</item>
+		<item>球</item>
+		<item>双子星</item>
+		<item>溶解</item>
+		<item>卷帘</item>
+		<item>旋转</item>
+		<item>车轮</item>
+		<item>擦除</item>
+		<item>暴风</item>
+		<item>凸起</item>
+		<item>交叉</item>
+		<item>陨石</item>
+		<item>贪吃蛇</item>
+    </string-array>
+    
+    <string-array name="animation_type">
+       	<item>上下2折</item>
+		<item>左右2折</item>
+		<item>上下中折</item>
+		<item>左右中折</item>
+		<item>上下4折</item>
+		<item>左右4折</item>
+    </string-array>  
+    
+</resources>

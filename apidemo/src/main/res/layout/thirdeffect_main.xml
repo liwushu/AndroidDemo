@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/he"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/loopmode"/>
+        <Switch
+            android:id="@+id/switch_loopmode"
+            android:layout_marginLeft="5dip" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSelectHandleLeft="@string/switch_on"
+            android:textSelectHandleRight="@string/switch_off"
+            android:checked="true"/>
+         <TextView
+            android:layout_marginLeft="30dip" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/effecttype"/>
+         <Spinner
+             android:layout_marginLeft="5dip" 
+             android:id="@+id/spinner_type"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent">             
+         </Spinner>       
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/pre_button"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pre_page"/>
+        
+         <Button
+            android:id="@+id/next_button"      
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_page"/>
+    </LinearLayout>
+    
+    <com.gionee.thirdpartyeffect.view.EasyViewGroup
+        android:id="@+id/easyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/hell"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_blue_light"
+            android:enabled="true"
+            android:textColor="#99555555"
+            android:textSize="300dp" 
+            android:gravity="center"/>
+
+        <GridView
+            android:id="@+id/myGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="60dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:padding="10dp"
+            android:stretchMode="columnWidth"
+            android:background="@android:color/holo_green_light"
+            android:verticalSpacing="10dp" />
+
+        <TextView
+            android:id="@+id/hell0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#55FF66FF"
+            android:enabled="true"
+            android:textColor="#99555555"
+            android:textSize="300dp"
+            android:gravity="center" />
+
+       <ListView
+            android:id="@+id/list"
+            android:background="@android:color/holo_red_light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >            
+        </ListView>
+        
+        <TextView
+            android:id="@+id/hell1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5566FFFF"
+            android:gravity="center"
+            android:textColor="#99555555"
+            android:textSize="300dp" />
+        
+</com.gionee.thirdpartyeffect.view.EasyViewGroup>
+    
+</LinearLayout>

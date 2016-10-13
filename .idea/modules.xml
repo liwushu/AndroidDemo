@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDemo.iml" filepath="$PROJECT_DIR$/AndroidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volley/Volley.iml" filepath="$PROJECT_DIR$/Volley/Volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/analysislib/analysislib.iml" filepath="$PROJECT_DIR$/analysislib/analysislib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apidemo/apidemo.iml" filepath="$PROJECT_DIR$/apidemo/apidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launchereffect/launchereffect.iml" filepath="$PROJECT_DIR$/launchereffect/launchereffect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thirdpartyeffect/thirdpartyeffect.iml" filepath="$PROJECT_DIR$/thirdpartyeffect/thirdpartyeffect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
+    </modules>
+  </component>
+</project>

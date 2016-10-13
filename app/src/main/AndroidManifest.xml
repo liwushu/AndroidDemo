@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.slw">
+
+    <uses-permission android:name="android.permission.BIND_JOB_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SlwApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TestArrActivity" />
+        <activity android:name=".activity.TestScrollActivity" />
+        <activity android:name=".job.TestJobSchedule" />
+
+        <service
+            android:name=".job.TestJobScheduleService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver android:name=".widget.TestWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info" />
+        </receiver>
+
+        <activity android:name=".activity.TestWidgetActivity" />
+        <activity android:name=".activity.TestLayoutActivity" />
+        <activity android:name=".activity.TestEffectActivity" />
+        <activity android:name=".activity.MyTransformationActivity" />
+        <activity android:name=".activity.TestVideoActivity" />
+        <activity android:name=".reflect.MainActivity1" />
+        <activity android:name=".activity.TestRxAndroidActivity" />
+        <activity android:name=".activity.TestBackgroundActivity" />
+        <activity android:name=".activity.TestViewVisible" />
+        <activity android:name=".http.TestRetrofitActivity" />
+        <activity android:name=".activity.TestVolleyActivity" />
+        <activity android:name=".xutils.TestXutilsActivity" />
+        <activity android:name=".activity.TestVisible2" />
+        <activity android:name=".activity.TestFrescoActivity" />
+        <activity android:name=".activity.TestHandlerActivity"></activity>
+    </application>
+
+</manifest>
