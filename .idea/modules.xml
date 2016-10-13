@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/analysislib/analysislib.iml" filepath="$PROJECT_DIR$/analysislib/analysislib.iml" />
       <module fileurl="file://$PROJECT_DIR$/apidemo/apidemo.iml" filepath="$PROJECT_DIR$/apidemo/apidemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gifdrawable/gifdrawable.iml" filepath="$PROJECT_DIR$/gifdrawable/gifdrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/launchereffect/launchereffect.iml" filepath="$PROJECT_DIR$/launchereffect/launchereffect.iml" />
       <module fileurl="file://$PROJECT_DIR$/thirdpartyeffect/thirdpartyeffect.iml" filepath="$PROJECT_DIR$/thirdpartyeffect/thirdpartyeffect.iml" />

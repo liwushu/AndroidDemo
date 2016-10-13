@@ -13,6 +13,7 @@ import com.android.slw.activity.TestArrActivity;
 import com.android.slw.activity.TestBackgroundActivity;
 import com.android.slw.activity.TestEffectActivity;
 import com.android.slw.activity.TestFrescoActivity;
+import com.android.slw.activity.TestGifActivity;
 import com.android.slw.activity.TestHandlerActivity;
 import com.android.slw.activity.TestLayoutActivity;
 import com.android.slw.activity.TestRxAndroidActivity;
@@ -41,6 +42,7 @@ public class MainActivity extends Activity implements AbstractAdapter.OnClickLis
             TestLayoutActivity.class,TestEffectActivity.class,MyTransformationActivity.class, TestVideoActivity.class,MainActivity1.class,
             TestRxAndroidActivity.class,TestBackgroundActivity.class,TestViewVisible.class,TestRetrofitActivity.class,TestVolleyActivity.class,
             TestXutilsActivity.class,TestVisible2.class,TestFrescoActivity.class, TestHandlerActivity.class,
+            TestGifActivity.class
     };
 
     RecyclerView recyclerView;

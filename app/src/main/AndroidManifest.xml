@@ -52,7 +52,8 @@
         <activity android:name=".xutils.TestXutilsActivity" />
         <activity android:name=".activity.TestVisible2" />
         <activity android:name=".activity.TestFrescoActivity" />
-        <activity android:name=".activity.TestHandlerActivity"></activity>
+        <activity android:name=".activity.TestHandlerActivity" />
+        <activity android:name=".activity.TestGifActivity"></activity>
     </application>
 
 </manifest>

@@ -1,1 +1,1 @@
-include ':app', ':analysislib', ':apidemo', ':thirdpartyeffect', ':launchereffect', ':Volley', ':xutils', ':imageloader'
+include ':app', ':analysislib', ':apidemo', ':thirdpartyeffect', ':launchereffect', ':Volley', ':xutils', ':imageloader', ':gifdrawable'
